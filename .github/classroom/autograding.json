@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Challenge 1",
+      "setup": "cd tools && sudo chmod +x CPUEmulator.sh",
+      "run": "cd ./problem && ../tools/CPUEmulator.sh programBasic.tst",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Challenge 2",
+      "setup": "cd tools && sudo chmod +x CPUEmulator.sh",
+      "run": "cd ./problem && ../tools/CPUEmulator.sh program.tst",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
